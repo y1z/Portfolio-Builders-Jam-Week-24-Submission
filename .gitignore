@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores 
+.godot/
+/android/
+
+# Ignore specific addons 
+addons/godot_vim
+addons/godot-vim
+addons/inspector_tabs
+addons/fancy_folder_icons
