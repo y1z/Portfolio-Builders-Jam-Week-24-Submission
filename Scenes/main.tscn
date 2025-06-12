@@ -1,3 +1,15 @@
-[gd_scene format=3 uid="uid://3pcd2j8amoks"]
+[gd_scene load_steps=3 format=3 uid="uid://3pcd2j8amoks"]
+
+[ext_resource type="Script" uid="uid://v0qkxyywyjn" path="res://Scripts/main_script.gd" id="1_jjgbg"]
+[ext_resource type="Texture2D" uid="uid://bqknukqiw5v8r" path="res://icon.svg" id="2_bo1nx"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_jjgbg")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(68, 69)
+texture = ExtResource("2_bo1nx")
+
+[node name="MainCamera" type="Camera2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(68, 69)
